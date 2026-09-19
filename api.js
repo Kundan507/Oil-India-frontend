@@ -9,7 +9,7 @@
 // - While testing on your own computer: http://localhost:4000
 // - Once deployed to a real server: https://your-server-address.com
 
-const API_BASE_URL = "http://localhost:4000";
+const API_BASE_URL = "https://oil-india-backend-1.onrender.com";
 
 function getToken() {
   return sessionStorage.getItem("oit_token");
