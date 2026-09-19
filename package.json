@@ -1,0 +1,26 @@
+{
+  "name": "frontend-v6",
+  "version": "1.0.0",
+  "description": "New in this version: 1. Site creation form now has 4 coordinate fields: Start Latitude,    Start Longitude, End Latitude, End Longitude -- instead of one pair.    If you only have one location, enter the same coordinates in both. 2. The map now shows a green pin for each site's start point, an    orange pin for its end point, and a dashed line connecting them    (e.g. for a pipeline running between two places). 3. Fixed: a bad/invalid coordinate now shows a clear error message    when creating a site, instead of the pin just silently not    appearing with no explanation. 4. Admin's User Management page has a \"Delete\" button next to each    manager/engineer (next to \"Assign site\"). Confirms before deleting;    any tasks that person had are unassigned, not deleted, so the work    history is preserved. 5. Project & Schedule now shows a small photo thumbnail next to every    task that has one, whether the task is pending, approved, or    rejected. Click the thumbnail to view it full size.",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.47.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-leaflet": "^5.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^3.4.17",
+    "vite": "^8.3.0"
+  }
+}
